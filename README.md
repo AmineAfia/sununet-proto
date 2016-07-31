@@ -10,7 +10,7 @@ If you are using the terminal:
 $ git clone https://github.com/AmineAfia/sununet-proto.git
 ```
 #### step2 builf the project
-Required tools: 
+##### Required tools: 
 - Install Node.js
 - Update npm
 ```bach
@@ -20,11 +20,15 @@ $ npm install npm -g
 ```bach
 $ npm i -g create-react-app
 ```
+- install json-server
+```bach
+$ npm i -g json-server
+```
 
-Build the project:
+##### Build the project:
 ```bach
 $ npm install
-$npm start
+$ npm start
 ```
 
 visit: [http://localhost:3001/](http://localhost:3001/)
