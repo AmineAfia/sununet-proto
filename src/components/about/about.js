@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router';
 
 import { fetchProjects } from '../../actions/actions';
 
@@ -12,7 +11,7 @@ class AboutComponent extends Component {
     
     renderProjects() {
         return this.props.projects.map((project) => {
-            return (
+            return (                    
                     <tr key={project.id}>
                     <td className="mdl-data-table__cell--non-numeric">{project.name}</td>
                     <td>{project.size}</td>
