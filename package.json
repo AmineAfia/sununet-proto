@@ -1,5 +1,6 @@
 {
   "name": "sununet-proto",
+  "homepage": "https://github.com/AmineAfia/sununet-proto.git",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
