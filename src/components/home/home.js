@@ -5,7 +5,6 @@ import { Link } from 'react-router';
 import { fetchProjects } from '../../actions/actions';
 
 class HomeComponent extends Component {
-
     
     componentWillMount () {
         this.props.fetchProjects();
@@ -42,7 +41,7 @@ class HomeComponent extends Component {
             <div>
                 <h3>Projects</h3>
                 <div className="mdl-grid items">
-                {this.renderProjects()}
+                {this.renderProjects(this)}
                 </div>
             </div>
         )
